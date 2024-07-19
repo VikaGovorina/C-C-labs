@@ -51,14 +51,6 @@ int main(int argc, char **argv)
 
 	rank = size;
 
-	/*for (int row = 0; row < size; row++)
-	{
-		for (int column = 0; column < (size + 1); column++)
-		{
-			fscanf(in, "%f", &A[row * (size + 1) + column]);
-		}
-	}*/
-
 	for (int i = 0; i < size * (size + 1); i++)
 	{
 		fscanf(in, "%f", &A[i]);
